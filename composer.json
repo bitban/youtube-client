@@ -1,0 +1,19 @@
+{
+  "name": "bitban/youtube-poc",
+  "description": "Youtube CLI uploader",
+  "authors": [
+    {
+      "name": "Fede Álvarez",
+      "email": "falvarez@bitban.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bitban\\YoutubeClient\\": "src/"
+    }
+  },
+  "require": {
+    "google/apiclient": "^2.0",
+    "symfony/console": "^3.1"
+  }
+}
